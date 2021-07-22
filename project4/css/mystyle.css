@@ -1,0 +1,76 @@
+ .home {
+  background-image: url('https://www.wellingtonautoservice.com/custom/logo.png');
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: 75% 25%;
+}
+.contact {
+  background-color: yellow;
+}
+.services {
+  animation-name: example;
+  animation-duration: 10s;
+}
+.picture {
+  transform-style: flat;
+  max-width: 100%;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 5px 10px;
+}
+@keyframes example {
+  from {background-color: yellow;}
+  to {background-color: red;}
+}
+
+#indexHeader {
+  color: blue;
+}
+
+#contactHeader {
+  color: green;
+}
+
+#servicesHeader{
+  color: black;
+}
+h1 {
+  background-color: rgb(300, 0, 0);
+  font-family: verdana;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "\00BB";
+}
+
+video {
+  filter:opacity(60%);
+}
+
+p {
+  text-shadow: 2px 2px;
+    background-image: linear-gradient(red, yellow);
+    text-align:center;
+    color: blue;
+    font-family: verdana;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a:visited {
+  color: pink
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}

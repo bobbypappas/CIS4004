@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- header for webpage-->
+  <head>
+    <title>Wellington Auto Home Page</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/mystyle.css">
+    <!-- styling for each element shown-->
+    <style>
+      h1 {
+        background-color: rgb(300, 300, 300);
+      }
+      body {
+        background-image: url('https://www.wellingtonautoservice.com/custom/logo.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-size: 75% 25%;
+      }
+      video {
+        filter:opacity(60%);
+      }
+      p {
+          text-align:center;
+          color: blue;
+          font-family: verdana;
+          margin-left: 100px;
+          margin-right: 100px;
+      }
+    </style>
+  </head>
+  <!-- main body portion that includes sections/divs to separate each part-->
+  <body>
+    <section id="banner">
+      <div>
+        <h1 title="Important question" style="font-family: verdana;text-align: center;">Need a car repair?</h1>
+        <p title="Important info">
+          Since 1992, Wellington Auto Service has provided motorists in the Wellington, FL 33414 area with comprehensive auto repair services that include 4x4 Services,
+          Alignment, Brakes, Car & Truck Care, Domestic Cars & Trucks, Electric and Hybrid Vehicle , Electrical Services, Electronic Services, Engine & Transmission,
+          Engine Maintenance, General Services, Heating and Cooling Services, Import Cars & Trucks, Tires, Transmission Services and Undercar Services.
+          Our goal is to offer the best services available at affordable prices to get you back on the road in no time.
+        </p>
+      </div>
+      <video autoplay loop muted playsinline src="video/carDriving.mp4"></video>
+    </section>
+    <div>
+      <blockquote cite="https://www.google.com/search?q=wellington+auto+service&rlz=1C1GCEU_enUS916US916&oq=wellington+auto+service&aqs=chrome.0.69i59j0i22i30l4j69i60.2120j0j7&sourceid=chrome&ie=UTF-8">
+        Very professional. Prompt service. They did thorough examine and gave honest recommendation to protect my safety and well being. I will definitely come back
+        to this particular place, even it is quite a drive from the place where I live. Thank you!
+      </blockquote>
+    </div>
+    <!-- links to other webpages-->
+    <nav id="otherPages">
+      <ul class="links">
+        <li>
+          <!-- gnarly button I learned how to make-->
+          <form action="html/services.html">
+            <input type="submit" value="Services Offered" />
+          </form>
+        </li>
+        <li>
+          <form action="html/contact.html">
+            <input type="submit" value="Contact Us" />
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

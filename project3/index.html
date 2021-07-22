@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- header for webpage-->
+  <head>
+    <title>Wellington Auto Home Page</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script type="text/javascript" src="javascript/validation.js"></script>
+  </head>
+  <!-- main body portion that includes sections/divs to separate each part-->
+  <body class="home">
+    <!-- Here is the beginning of the form -->
+		<form action="" name="myForm" method="get" onsubmit="return validate();">
+    <table cellspacing = "2" cellpadding = "2" border = "1">
+      <!-- first Name submission-->
+      <tr>
+        <td align = "right">First name:</td>
+        <td><input type = "text" id="firstName"></td>
+      </tr>
+      <!-- last name submission-->
+      <tr>
+        <td align = "right">Last name:</td>
+        <td><input type = "text" id="lastName"></td>
+      </tr>
+      <!-- address submission-->
+      <tr>
+        <td align = "right">Address:</td>
+        <td><input type = "text" id="address"></td>
+      </tr>
+      <!-- city submission-->
+      <tr>
+        <td align = "right">City:</td>
+        <td><input type = "text" id="city"></td>
+      </tr>
+      <!-- state submission-->
+  		<tr>
+        <td align = "right">State:</td>
+        <td>
+          <select id="state">
+          <option value = "-1" selected>[choose yours]</option>
+          <option value = "1">Alabama</option>
+          <option value = "2">Arkansas</option>
+          <option value = "3">Wyoming</option>
+          <option value = "4">Mississippi</option>
+          <option value = "5">Florida</option>
+          </select>
+        </td>
+      </tr>
+      <!-- zip code submission-->
+      <tr>
+        <td align = "right">Zip Code:</td>
+        <td><input type = "text" id="zip"></td>
+      </tr>
+      <!-- phone number submission-->
+      <tr>
+        <td align = "right">Phone Number:</td>
+        <td>
+          Personal<input type="radio" value="Personal">
+          Business<input type="radio" value="Business">
+  				<input type = "text" id="phoneNumber">
+        </td>
+      </tr>
+      <!-- email submission-->
+      <tr>
+        <td align = "right">Email:</td>
+        <td><input type = "text" id="email"></td>
+      </tr>
+      <!-- submit button-->
+      <tr>
+        <td align = "right"></td>
+        <td><button type"button" onclick="validate()">Submit</button></td>
+      </tr>
+
+    </table>
+    </form>
+    <section>
+      <div>
+        <h1 id="indexHeader" title="Important question">Need a car repair?</h1> <!-- style="font-family: verdana;text-align: center;"-->
+        <p title="Important info">
+          Since 1992, Wellington Auto Service has provided motorists in the Wellington, FL 33414 area with comprehensive auto repair services that include 4x4 Services,
+          Alignment, Brakes, Car & Truck Care, Domestic Cars & Trucks, Electric and Hybrid Vehicle , Electrical Services, Electronic Services, Engine & Transmission,
+          Engine Maintenance, General Services, Heating and Cooling Services, Import Cars & Trucks, Tires, Transmission Services and Undercar Services.
+          Our goal is to offer the best services available at affordable prices to get you back on the road in no time.
+        </p>
+      </div>
+      <video autoplay loop muted playsinline src="video/carDriving.mp4"></video>
+    </section>
+    <div>
+      <blockquote cite="https://www.google.com/search?q=wellington+auto+service&rlz=1C1GCEU_enUS916US916&oq=wellington+auto+service&aqs=chrome.0.69i59j0i22i30l4j69i60.2120j0j7&sourceid=chrome&ie=UTF-8">
+        "Very professional. Prompt service. They did thorough examine and gave honest recommendation to protect my safety and well being. I will definitely come back
+        to this particular place, even it is quite a drive from the place where I live. Thank you!" - Google Review
+      </blockquote>
+    </div>
+    <!-- links to other webpages-->
+    <nav>
+      <ul class="links">
+        <li>
+          <a href="html/services.html">"Services Offered"</a>
+        </li>
+        <li>
+          <a href="html/contact.html">"Contact Us"</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
